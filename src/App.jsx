@@ -6,10 +6,11 @@ import { ShoppingBagIcon } from './icons/ShoppingBagIcon.jsx'
 
 function App() {
 	return (
-		<>
-			<h1>Hello world</h1>
-			<ShoppingBagIcon />
-		</>
+		<div className='App'>
+			<header className='header'>
+				<h1>Ecommerce</h1>
+			</header>
+		</div>
 	)
 }
 
